@@ -1,0 +1,59 @@
+.intro-wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: #044476;
+    color:white;
+    padding: 15vh 0px 29vh 0px;
+    margin-bottom: 50px;
+}
+
+.intro-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:50%;
+    margin-left: 5%;
+}
+
+.intro-heading{
+    font-size: 7rem;
+    font-weight: 400;
+}
+
+.intro-location{
+    font-weight: 300;
+}
+
+.intro-buttons{
+    margin-top: 80px;
+}
+
+.intro-buttons a{
+    text-decoration: none;
+    color: #044476;
+    padding: 10px 60px;
+    border-radius:30px;
+    background-color: white;
+    font-weight: 600;
+    font-size:1.5rem;
+}
+
+.intro-register{
+    margin-right: 15%;
+}
+
+.intro-right{
+    display: flex;
+    width:50%;
+    margin-left: 5%;
+}
+
+.carousel-item img{
+    width: 20%;
+    height: 200px;
+}
+
+.carousel-control{
+    margin-top: 80px;
+    color:white;
+}
