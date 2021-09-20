@@ -1,0 +1,86 @@
+.contactus-wrapper{
+    margin: 0px 8%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-details{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display:flex;
+}
+.taylor-uni{
+    width:50%;
+    padding-left: 15%;
+}
+.vit-uni{
+    width:50%;
+    padding-left: 15%;
+}
+
+.map-message{
+    display: flex;
+    flex-direction: row;
+}
+
+.taylor-uni-map{
+    width:60%;
+    border: 0;
+    height: 500px;
+    -webkit-mask-image: linear-gradient(to right,rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.1));
+    -moz-mask-image: linear-gradient(to right,rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.1));
+    margin-right: 20px;
+}
+
+.contact-box{
+    width: 40%;
+    display: flex;
+    flex-direction:column;
+    box-shadow: 0px 0px 46px rgba(0, 0, 0, 0.25);
+    padding:40px;
+}
+
+.contact-box h3{
+    color: #044476;
+}
+.contact-box p{
+    margin: 10px 0px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input{
+    border:none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+}
+.contact-form textarea{
+    border:1px solid black;
+    height: 150px;
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 15px;
+}
+.contact-form input:focus,.contact-form textarea:focus{
+    outline: none;
+}
+
+.send-message-container{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.send-message{
+    align-content: center;
+    text-decoration: none;
+    color:white;
+    background-color: #044476;
+    width:30%;
+    padding: 10px 0px;
+    text-align:center;
+}

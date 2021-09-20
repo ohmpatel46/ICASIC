@@ -1,0 +1,17 @@
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:50px;
+}
+
+.powered-by{
+    font-size:2.5rem;
+    margin-bottom: 50px;
+}
+
+.footer-wrapper img{
+    width: 200px;
+    height: 200px;
+    margin-bottom:50px;
+}
