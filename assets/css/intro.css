@@ -58,3 +58,9 @@
     margin-top: 80px;
     color:white;
 }
+
+@media(max-width: 600px) {
+    .intro-wrapper{
+        flex-direction: column;
+    }
+}
