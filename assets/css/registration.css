@@ -97,4 +97,46 @@
     left: 22rem;
     z-index: 1;
   }
-  
+  .reg-list{
+    list-style: none;
+  }
+  .reg-text-li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .square-bullet{
+    font-size: 1rem;
+    color:#044476;
+    margin-right: 10px;
+    position: relative;
+    top:-3px;
+  }
+  .contributors{
+    margin: 50px 0px;
+  }
+  .contributor-box{
+    text-align: center;
+    padding: 0px 3vw;
+  }
+  .contributor-box p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 2vw;
+    font-weight: 500;
+    border: 1px #044476 solid;
+    min-height:80px;
+  }
+  .contributor-box p:hover{
+    color:white;
+    background-color: #044476;
+    transition-duration: 0.1s;
+  }
+
+  .reg-heading{
+    color:#044476;
+  }
+  .reg-imp-dates{
+    margin: 50px 0px;
+  }
